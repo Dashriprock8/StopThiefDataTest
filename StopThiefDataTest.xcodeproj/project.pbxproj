@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F7513AB24C76C9900702AA2 /* ClueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7513A924C76C9900702AA2 /* ClueTableViewCell.swift */; };
+		1F7513AC24C76C9900702AA2 /* ClueTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F7513AA24C76C9900702AA2 /* ClueTableViewCell.xib */; };
+		1F7513AE24CA16F400702AA2 /* GreaterOrLessThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7513AD24CA16F400702AA2 /* GreaterOrLessThan.swift */; };
+		1F8632DA24C1E9E7005884C5 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8632D924C1E9E7005884C5 /* GameState.swift */; };
 		1F94818D24C0D36200BE096A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F94818C24C0D36200BE096A /* AppDelegate.swift */; };
 		1F94818F24C0D36200BE096A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F94818E24C0D36200BE096A /* ViewController.swift */; };
 		1F94819224C0D36200BE096A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F94819024C0D36200BE096A /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 		1F94819A24C0D36200BE096A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F94819824C0D36200BE096A /* LaunchScreen.storyboard */; };
 		1F9481A524C0D36200BE096A /* StopThiefDataTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9481A424C0D36200BE096A /* StopThiefDataTestTests.swift */; };
 		1F9481B024C0D36200BE096A /* StopThiefDataTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9481AF24C0D36200BE096A /* StopThiefDataTestUITests.swift */; };
+		1F9481BE24C0D42F00BE096A /* BuildingStreet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9481BD24C0D42F00BE096A /* BuildingStreet.swift */; };
+		1F9481C024C0D58500BE096A /* LocationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9481BF24C0D58500BE096A /* LocationType.swift */; };
+		1F9481C224C0D99B00BE096A /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9481C124C0D99B00BE096A /* Location.swift */; };
+		1F9481C624C12E7E00BE096A /* clue.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F9481C524C12E7E00BE096A /* clue.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F7513A924C76C9900702AA2 /* ClueTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClueTableViewCell.swift; sourceTree = "<group>"; };
+		1F7513AA24C76C9900702AA2 /* ClueTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClueTableViewCell.xib; sourceTree = "<group>"; };
+		1F7513AD24CA16F400702AA2 /* GreaterOrLessThan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreaterOrLessThan.swift; sourceTree = "<group>"; };
+		1F8632D924C1E9E7005884C5 /* GameState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 		1F94818924C0D36200BE096A /* StopThiefDataTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopThiefDataTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F94818C24C0D36200BE096A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F94818E24C0D36200BE096A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +61,10 @@
 		1F9481AB24C0D36200BE096A /* StopThiefDataTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopThiefDataTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F9481AF24C0D36200BE096A /* StopThiefDataTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopThiefDataTestUITests.swift; sourceTree = "<group>"; };
 		1F9481B124C0D36200BE096A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9481BD24C0D42F00BE096A /* BuildingStreet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuildingStreet.swift; sourceTree = "<group>"; };
+		1F9481BF24C0D58500BE096A /* LocationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationType.swift; sourceTree = "<group>"; };
+		1F9481C124C0D99B00BE096A /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		1F9481C524C12E7E00BE096A /* clue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clue.png; path = ../../clue.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,7 @@
 		1F94818B24C0D36200BE096A /* StopThiefDataTest */ = {
 			isa = PBXGroup;
 			children = (
+				1F9481C524C12E7E00BE096A /* clue.png */,
 				1F94818C24C0D36200BE096A /* AppDelegate.swift */,
 				1F94818E24C0D36200BE096A /* ViewController.swift */,
 				1F94819024C0D36200BE096A /* Main.storyboard */,
@@ -106,6 +123,13 @@
 				1F94819824C0D36200BE096A /* LaunchScreen.storyboard */,
 				1F94819B24C0D36200BE096A /* Info.plist */,
 				1F94819324C0D36200BE096A /* StopThiefDataTest.xcdatamodeld */,
+				1F9481BD24C0D42F00BE096A /* BuildingStreet.swift */,
+				1F9481BF24C0D58500BE096A /* LocationType.swift */,
+				1F9481C124C0D99B00BE096A /* Location.swift */,
+				1F8632D924C1E9E7005884C5 /* GameState.swift */,
+				1F7513A924C76C9900702AA2 /* ClueTableViewCell.swift */,
+				1F7513AA24C76C9900702AA2 /* ClueTableViewCell.xib */,
+				1F7513AD24CA16F400702AA2 /* GreaterOrLessThan.swift */,
 			);
 			path = StopThiefDataTest;
 			sourceTree = "<group>";
@@ -235,6 +259,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F7513AC24C76C9900702AA2 /* ClueTableViewCell.xib in Resources */,
+				1F9481C624C12E7E00BE096A /* clue.png in Resources */,
 				1F94819A24C0D36200BE096A /* LaunchScreen.storyboard in Resources */,
 				1F94819724C0D36200BE096A /* Assets.xcassets in Resources */,
 				1F94819224C0D36200BE096A /* Main.storyboard in Resources */,
@@ -262,8 +288,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F8632DA24C1E9E7005884C5 /* GameState.swift in Sources */,
+				1F7513AE24CA16F400702AA2 /* GreaterOrLessThan.swift in Sources */,
+				1F9481BE24C0D42F00BE096A /* BuildingStreet.swift in Sources */,
+				1F9481C024C0D58500BE096A /* LocationType.swift in Sources */,
 				1F94818F24C0D36200BE096A /* ViewController.swift in Sources */,
 				1F94818D24C0D36200BE096A /* AppDelegate.swift in Sources */,
+				1F9481C224C0D99B00BE096A /* Location.swift in Sources */,
+				1F7513AB24C76C9900702AA2 /* ClueTableViewCell.swift in Sources */,
 				1F94819524C0D36200BE096A /* StopThiefDataTest.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +541,7 @@
 				1F9481B624C0D36200BE096A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F9481B724C0D36200BE096A /* Build configuration list for PBXNativeTarget "StopThiefDataTestTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +550,7 @@
 				1F9481B924C0D36200BE096A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F9481BA24C0D36200BE096A /* Build configuration list for PBXNativeTarget "StopThiefDataTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +559,7 @@
 				1F9481BC24C0D36200BE096A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
